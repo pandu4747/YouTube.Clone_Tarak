@@ -1,0 +1,33 @@
+/*z-index property give the priority to that element which having the highest z-index value.*/
+/* The element high z-index value will cover the element with low z-index value*/
+.sidebar {
+  position: fixed;
+  left: 0px;
+  top: 55px;
+  bottom: 0px;
+  background-color: white;
+  width: 72px;
+  z-index: 150;
+  padding-top: 5px;
+}
+.sidebar-icons {
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.sidebar-icons:hover{
+  background-color: rgb(235, 235, 235);
+
+}
+.sidebar-icons img{
+  height: 24px;
+  margin-bottom: 4px;
+}
+.sidebar-icons div{
+  font-family: Roboto, Arial;
+  font-size: 10px;
+  
+}
